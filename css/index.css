@@ -1,0 +1,197 @@
+body{
+    font: 15px/1.5 arial, helvetica sans-serif;
+    padding: 0;
+    margin: 0;
+    background:mistyrose;
+}
+/*Global*/
+.container{
+    margin: auto;
+    overflow: hidden;
+
+}
+header a:hover{
+    color:#4e2e04;
+    font-weight: bold;
+
+}
+header .highlight ,header.current{
+    color: #1de82b;
+    font-weight: bold;
+
+}
+header nav{
+    float: right;
+    margin: top 10px;
+
+
+}
+header a:hover{
+    color: #fff0ff;
+    font-weight: bold;
+}
+/* .dark{
+    
+} */
+/* .button_1{
+    height: 21px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    color: #ffff;
+    text-align: center;
+
+} */
+header{
+    background: #334241;
+    color:red;
+    padding-top: 10px;
+    min-height: 72px;
+    border-bottom: #e88d1d 3px solid;
+
+
+}
+header a{
+    color: #ffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+    
+   
+}
+header #brading{
+    float: left;
+
+}
+header #branding{
+    margin: 0;
+}
+
+.about-wrapper{
+    display: grid;
+    border-bottom: 4px solid black;
+    
+}
+.about-me{
+padding: 25px;
+background: #1a4e36ae;
+color: #ffff;
+margin-top: 5px;
+width: 350px;
+display: block;
+width: 100%;
+object-fit: cover;
+height: 180px;
+
+}
+.pic{
+    border-radius: 43%;
+    align-items: flex-start;
+}
+.post{
+    padding: 15px;
+}
+.thumb{
+float: left;
+margin-left: 50%;
+margin-top: 30px;
+
+}
+
+#skills{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: burlywood;
+    width: 520px;
+    margin-left: 1px;
+    padding: 0px;
+}
+.image{
+    margin-left: 80%;
+    margin-bottom: 100%;
+    padding-top: 200px;
+    float:right;
+    
+
+}
+.home{
+background-color: rgb(65, 65, 0.7);
+width: 300px;
+border-radius: 12px;
+border-left: 20px;
+margin-left: 345px;
+color: #ccc;
+border-color: #1de82b;
+margin-top: 0;
+
+}
+.dark{
+    padding: 15px;
+    background: rgb(65, 65, 0.7);
+    color: #ffff;
+    margin-left: 60%;
+    width: 230px;
+    border-radius: 12px;
+    border-color:3px solid #1de82b;
+    border-style: dashed;
+
+}
+input{
+    color: #fff0ff;
+    background-color: #e8491d;
+    border-radius: 12px;
+    padding: 15px;
+
+}
+.button_1{
+    background: #351de8;
+    border-radius: 2px solid white;
+    padding:15px;
+    color: #ffff;
+    text-align: center;
+    justify-content: center;
+
+}
+#showcase{
+    min-height: 400px;
+    background: url('../images/mark.jpeg') no-repeat;
+    background-position: cover;
+    text-align: center;
+    color: rgb(50, 25, 148);
+    margin-top: 2px;
+
+}
+p{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#showcase{
+    margin-top: 0px;
+    font-size: 45px;
+    margin-bottom: 0px;
+
+}
+#showcase p{
+    font-size: 25px;
+}
+.education{
+width: 630px;
+border-radius: 12px;
+border-left: 20px;
+margin-left: 445px;
+color: #ccc;
+border-color: 3px#1de82b;
+margin-top: 0;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #e8491d;
+    color: #f4f4f4;
+}
